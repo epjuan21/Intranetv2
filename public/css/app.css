@@ -1,0 +1,184 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);header {
+  height: 60px;
+  background-color: #FFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid lightgray;
+}
+
+.header-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-title img {
+  width: 40px;
+  padding-left: 32px;
+}
+
+.header-title a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #586069;
+  padding-left: 16px;
+}
+
+.header-nav a {
+  display: inline-block;
+}
+
+.header-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* ESTILOS CARD */
+
+.card-container {
+  background: #FFF;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  width: 400px;
+  height: 200px;
+  border-radius: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  -webkit-transition: -webkit-box-shadow .3s ease-out;
+  transition: -webkit-box-shadow .3s ease-out;
+  transition: box-shadow .3s ease-out;
+  transition: box-shadow .3s ease-out, -webkit-box-shadow .3s ease-out;
+  margin-bottom: 20px;
+}
+
+.card-container:hover {
+  -webkit-box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+  background-color: #ECEFF1;
+  padding: 8px 16px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.card-body {
+  background-color: #FFF;
+  color: rgba(0, 0, 0, 0.64);
+  font-size: 13px;
+  padding: 16px;
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+}
+
+.card-footer {
+  background-color: #FFF;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  line-height: 36px;
+  padding: 8px;
+  text-align: right;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.card-footer a {
+  color: #2196f3;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 10px 8px;
+  font-weight: 500;
+  border-radius: 2px;
+  -webkit-transition: ease-in-out background-color .2s;
+  transition: ease-in-out background-color .2s;
+}
+
+.card-footer a:hover {
+  background-color: rgba(158, 158, 158, 0.3);
+}
+
+.navbar-laravel {
+  background-color: #fff;
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  /*background: linear-gradient(to right, #4b79a1, #283e51);*/
+  background-color: #EEE;
+  /*background: linear-gradient(90deg, #085078 10%, #85D8CE 90%);*/
+  font-family: 'Roboto', sans-serif;
+}
+
+section {
+  color: black;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin: 20px 20px;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: var(--gray-color);
+  font-size: 12px;
+  height: 50px;
+  padding: 10px;
+  border-top: 1px solid lightgray;
+}
+
+.container {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
